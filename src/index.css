@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* BookShelves */
+
+.main-title {
+    text-align: center;
+    vertical-align: middle;
+    background-color: coral;
+    font-size: 50px;
+}
+
+.book-shelves {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.book-shelf-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.book-name {
+    width:  150px;
+}
+
+.book-shelf-display {
+    padding-left: 20px
+}
+
+.book-image {
+    position: relative;
+    float: left;
+    width:  150px;
+    height: 180px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.dropdown-button {
+    width:  150px;
+}
+
+.search-button {
+    position: fixed;
+    bottom: 25px;
+    right: 50px;
+    color: coral;
+}
+
+.list-books-top {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.search-books {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
