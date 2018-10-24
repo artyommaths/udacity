@@ -34,7 +34,7 @@ export default class ShelfSelectorDropdown extends Component {
                                   onClick={() => onMoveBook(currentBook, 'wantToRead')}>Want To Read</DropdownItem>
                     <DropdownItem disabled={currentBook && currentBook.shelf === 'read'}
                                   onClick={() => onMoveBook(currentBook, 'read')}>Read</DropdownItem>
-                    <DropdownItem disabled={currentBook && currentBook.shelf === undefined}
+                    <DropdownItem disabled={currentBook && (currentBook.shelf === undefined || currentBook.shelf === 'none')}
                                   onClick={() => onMoveBook(currentBook, 'none')}>None</DropdownItem>
                 </DropdownMenu>
             </Dropdown>
